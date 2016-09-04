@@ -1,11 +1,6 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fortune_cookie/version'
-
 Gem::Specification.new do |spec|
   spec.name          = "fortune_cookie"
-  spec.version       = FortuneCookie::VERSION
+  spec.version       = 0.0.0
   spec.authors       = ["Julie Graceffa"]
   spec.email         = ["julie.graceffa@gmail.com"]
 
